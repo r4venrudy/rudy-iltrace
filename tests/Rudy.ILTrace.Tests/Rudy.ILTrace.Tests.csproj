@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><AssemblyName>Rudy.ILTrace.Tests</AssemblyName></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Rudy.ILTrace.Core/Rudy.ILTrace.Core.csproj" />
+    <ProjectReference Include="../../src/Rudy.ILTrace.Cli/Rudy.ILTrace.Cli.csproj" />
+    <ProjectReference Include="../Fixtures/Probe/Probe.csproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="../Fixtures/Baseline/Baseline.csproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="../Fixtures/Candidate/Candidate.csproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+</Project>

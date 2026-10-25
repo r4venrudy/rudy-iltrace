@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+/artifacts/
+/.tools/
+/.sdk-home/
+*.user
+*.suo
+*.tmp

@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="src/Rudy.ILTrace.Core/Rudy.ILTrace.Core.csproj" />
+  <Project Path="src/Rudy.ILTrace.Cli/Rudy.ILTrace.Cli.csproj" />
+  <Project Path="tests/Rudy.ILTrace.Tests/Rudy.ILTrace.Tests.csproj" />
+  <Project Path="tests/Fixtures/Probe/Probe.csproj" />
+  <Project Path="tests/Fixtures/Baseline/Baseline.csproj" />
+  <Project Path="tests/Fixtures/Candidate/Candidate.csproj" />
+</Solution>

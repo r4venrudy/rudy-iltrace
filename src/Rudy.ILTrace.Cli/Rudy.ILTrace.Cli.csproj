@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>rudy-iltrace</ToolCommandName>
+    <PackageId>Rudy.ILTrace.Tool</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>Offline .NET IL call graphs, capability traces and release-surface comparison.</Description>
+    <PackageTags>dotnet;security;static-analysis;il;forensics</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Rudy.ILTrace.Core/Rudy.ILTrace.Core.csproj" />
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
